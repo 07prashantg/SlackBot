@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #B7E2F0;
+    margin-top: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown{
+    margin-right: 100px;
+    align-items: center;
+    font-size: medium;
+    width: 150px;
+}
+.title{
+    margin-left: 50px;
+    align-items: center;
+}
+.roboImage{
+    width: 50vw;
+    height: 90vh;
+}
+.login{
+    width: 50vw;
+    height: 90vh;
+}
+.body{
+    display: flex;
+    align-items: center;
+    border: solid black 2px;
+    justify-content: space-around;
+    
+}
+.Loginside{
+    border: solid red 5px;
+    display: flex;
+    justify-content: center;
+}
+.loginbox{
+    font-size: large;
+    padding-left: 100px;
+    padding-top: 150px;
+    width: 400px;
+    height: 400px;
+    background-color: #B7E2F0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.Username, .Password{
+    margin: 10px; 
+    font-size: larger;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    font-size: medium;
+    margin: 10px;
+}
+#Username, #password{
+    height: 25px;
+    width: 150px;
+}
+.Form{
+    border: solid green 2px;
+}
+.EmployeeInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 5%; */
+    height: 100%;
+    background-color: bisque;
+}
+.Employeeimage{
+    margin-top: 10%;
+    margin-right: 150px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+    margin-bottom: 300px;
+}
+.employeeDetail{
+    display: flex;
+    flex-wrap: wrap; /* Make sure elements wrap to new rows */
+    margin-bottom: 400px;
+}
+.flex-item {
+    flex: 0 0 calc(33.33% - 10px); /* Adjust the width as needed */
+    margin: 10px; /* Adjust the initial gap between items */
+  }

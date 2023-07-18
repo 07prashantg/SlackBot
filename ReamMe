@@ -1,0 +1,39 @@
+- Dependency
+  npm install -D parcel
+
+- Component 
+  it is the normal js function it return some piece of "JSX" it is very similar to HTML but it is not the real HTML.
+  like : <div class="xyz">
+            
+         </div> 
+
+  JSX : <div className="xyz">
+            
+         </div> 
+
+
+
+
+const Header=()=>{
+    
+   const [loginButton,setloginButton]=useState('Login') 
+
+    
+    
+    
+    return(
+
+        <button onClick={()=>{
+            if(loginButton==="Login"){
+                setloginButton("Logout");
+            }
+            else{
+                setloginButton("Login");
+            }
+        }}>
+
+
+        </button>
+
+    )
+}
