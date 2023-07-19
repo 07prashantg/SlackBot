@@ -1,14 +1,19 @@
 import DropDown from "./DropDown";
+import { Link } from "react-router-dom";
 
-const Header=() =>{
+const Header = () => {
     return (
         <>
             <div className="header">
-                <div className="title">
-                    <h2>GeekBot</h2>
-                </div>
+                <Link to="/">
+                    <div className="title">
+                        <h2 onClick={() => {
+
+                        }}>GeekBot</h2>
+                    </div>
+                </Link>
                 <div >
-                    <DropDown/>
+                    <DropDown />
                 </div>
             </div>
         </>

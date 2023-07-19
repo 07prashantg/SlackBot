@@ -3,14 +3,12 @@ const EmployeeInfo = (props) => {
         <>
             <div className="EmployeeInfo">
                 <div>
-                    <img className="Employeeimage" src="https://wallpapers-clan.com/wp-content/uploads/2023/02/anime-boy-black-pfp-1.jpg"></img>
+                    <img className="employeeInfoImage" src="https://wallpapers-clan.com/wp-content/uploads/2023/02/anime-boy-black-pfp-1.jpg"></img>
                 </div>
-                <div className="employeeDetail">
-                    <div className="flex-item">Name : Prashant Goswami</div>
-                    <div className="flex-item">Employee Id : hjbjsa2974</div>
-                    <div className="flex-item">Email : xyz@gmail.com</div>
-                    <div className="flex-item">Department : Developer</div>
-                    <div className="flex-item">Date of joining : 12/23/1212</div>
+                <div className="employeeInfoDetail">
+                    <div className="flex-item">Name : {props.Name}</div>
+                    <div className="flex-item">Employee Id : {props.EmployeeId}</div>
+                    <div className="flex-item">Department : {props.Department}</div>
                 </div>
             </div>
 

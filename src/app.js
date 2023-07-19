@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "../Component/Header";
 import Body from "../Component/Body";
-import EmployeeInfo from "../Component/EmployeeInfo";
+import EmployeeLogin from "../Component/EmployeeLogin";
 import ManagerInfo from "../Component/ManagerInfo";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
@@ -29,11 +29,11 @@ const appRouter = createBrowserRouter([
             },
             {
                 path: "/Employee",
-                element: <EmployeeInfo Name={document.getElementById("Username")}/>,
+                element: <EmployeeLogin Name={document.getElementById("Username")}/>,
             },
             {
                 path: "/Manager",
-                element: <ManagerInfo Name={document.getElementById("Username")}/>,
+                element: <ManagerInfo />,
             }
         ],
     },

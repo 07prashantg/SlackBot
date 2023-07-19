@@ -32,24 +32,23 @@
 .body{
     display: flex;
     align-items: center;
-    border: solid black 2px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     
 }
 .Loginside{
-    border: solid red 5px;
+    border: solid rgb(6, 6, 6) 5px;
     display: flex;
+    margin-left: 10%;
     justify-content: center;
+    border-radius: 10%;
+    background-color: #B7E2F0;
 }
 .loginbox{
     font-size: large;
-    padding-left: 100px;
     padding-top: 150px;
     width: 400px;
     height: 400px;
-    background-color: #B7E2F0;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 .Username, .Password{
@@ -73,14 +72,16 @@
     width: 150px;
 }
 .Form{
-    border: solid green 2px;
+    margin-bottom: 50%;
+    margin-right: 5%;
+    margin-left: 15%;
 }
 .EmployeeInfo{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* margin-top: 5%; */
-    height: 100%;
+    /* height: 100%; */
     background-color: bisque;
 }
 .Employeeimage{
@@ -100,4 +101,34 @@
 .flex-item {
     flex: 0 0 calc(33.33% - 10px); /* Adjust the width as needed */
     margin: 10px; /* Adjust the initial gap between items */
-  }
+}
+
+.employeeInfoImage{
+    margin-top: 5%;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    margin-bottom: 300px;
+}
+.employeeInfoDetail{
+    display: flex;
+    margin-bottom: 400px;
+    margin-top: 120px;
+    gap: 100px;
+}
+.EmployeeLogin{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 5%; */
+    height: 100%;
+    background-color: bisque;
+}
+.managerBoard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: -100px;
+}
