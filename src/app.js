@@ -5,6 +5,7 @@ import Body from "../Component/Body";
 import EmployeeLogin from "../Component/EmployeeLogin";
 import ManagerInfo from "../Component/ManagerInfo";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import ManagerLogin from "../Component/ManagerLogin";
 
 //arrow function
 //es6 syntex - function applayout(){ }
@@ -26,6 +27,10 @@ const appRouter = createBrowserRouter([
             {
                 path: "/",
                 element: <Body />,
+            },
+            {
+                path: "/ManagerLogin",
+                element: <ManagerLogin />,
             },
             {
                 path: "/Employee",

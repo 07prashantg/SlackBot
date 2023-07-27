@@ -43,6 +43,14 @@
     border-radius: 10%;
     background-color: #B7E2F0;
 }
+.ManagerLoginside{
+    border: solid rgb(255, 0, 0) 5px;
+    display: flex;
+    margin-left: 10%;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: #B7E2F0;
+}
 .loginbox{
     font-size: large;
     padding-top: 150px;
@@ -131,4 +139,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: -100px;
+}
+
+.link-style {
+    text-decoration: none;
+}
+
+.ticketDetails{
+    margin-right: 10%;
+    margin-top: 30%;
+    margin-left: -15%;
+    
 }

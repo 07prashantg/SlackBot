@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Body from "../Component/Body";
+import ManagerLogin from "../Component/ManagerLogin";
 import { Link } from 'react-router-dom';
 
 const DropDown = () => {
@@ -14,6 +16,7 @@ const DropDown = () => {
         <option value="Employee">Employee</option>
         <option value="Manager">Manager</option>
       </select>
+      {/* {selectedOption === 'Employee' ? <Body /> : <ManagerLogin />} */}
     </div>
   );
 }
